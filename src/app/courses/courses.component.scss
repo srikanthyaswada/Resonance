@@ -1,0 +1,77 @@
+
+.bg-course{
+background-color: #fbfbfc;
+}
+.card-shadow {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.cs {
+  color: rgb(5, 5, 116);
+}
+.course-title {
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.reso-knr {
+  color: green;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.read-link {
+  text-decoration: none;
+  color: #3c403c;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.read-link:hover {
+  color: green;
+}
+.rm-btn {
+  float: right;
+}
+
+.card-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid rgb(148, 212, 148);
+}
+.cs {
+  color: rgb(5, 5, 116);
+  font-size: 22px;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+.medical {
+  font-size: 26px;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: #163269;
+}
+.bg-appointment{
+  background-color: rgb(240, 253, 249);
+}
+.appointment{
+  font-size: 26px;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: #163269;
+}
+.form-label{
+  font-size: 15px;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #1e3769;
+  margin: 0;
+}
+.ap-input{
+  border: 1px solid rgb(162, 247, 162);
+}
