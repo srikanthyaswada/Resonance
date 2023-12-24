@@ -1,0 +1,63 @@
+.main {
+  //   background: rgb(3, 168, 28);
+  //   background: linear-gradient(357deg, rgb(2, 174, 28) 0%, rgb(2, 170, 2) 100%);
+  background: url("../../../../assets/images/wave-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  width: 100%;
+}
+.head {
+  padding-top: 80px;
+  color: white;
+}
+.c-head {
+  color: rgb(5, 5, 116);
+}
+p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  text-align: justify;
+  color: rgb(18, 17, 17);
+  font-size: 16px;
+  text-transform: none;
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+li {
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.consult {
+  background-color: rgb(17, 4, 135);
+}
+.coe {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+.c-img {
+  width: 80%;
+  height: 250px;
+  border-radius: 30px;
+}
+.mail-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+.time {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
