@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Resonance';
+  lat = 18.4484969;
+  lng = 79.121254;
+  mapCenter = { lat: 18.4484969, lng: 79.121254 };
+  mapZoom = 15;
 }

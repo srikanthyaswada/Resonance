@@ -114,15 +114,15 @@
     </div>
   </div>
   <div class="row head" id="home">
-    <div class="col-sm-11 m-auto head1">
+    <div class="col-sm-12 m-auto head1">
       <div class="row">
         <div class="col-sm-3">
           <img
-            class="p-1 logo m-auto"
+            class="logo p-1 m-auto"
             src="assets/images/logo.webp"
             alt=""
-            width="100%"
-            height="80px"
+            width="60%"
+            height="60px"
           />
         </div>
         <div class="col-sm-9"></div>
@@ -132,7 +132,7 @@
   <div class="row sticky-top">
     <div class="card bg-nav border-0">
       <div class="row">
-        <div class="col-sm-11 m-auto">
+        <div class="col-sm-8 m-auto">
           <nav class="navbar navbar-expand-lg fw-bold p-0">
             <div class="container-fluid">
               <ul class="navbar-nav p-0">
@@ -158,15 +158,25 @@
                   <li class="nav-item me-4">
                     <a class="nav-link" routerLink="course">Courses</a>
                   </li>
-                  <li class="nav-item me-4">
-                    <a class="nav-link">Admissions</a>
+
+                  <li class="nav-item me-4 dropdown position-static me-lg-3">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      id="drop"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      >Results</a
+                    >
+                    <div class="dropdown-menu" aria-labelledby="drop">
+                      <ul>
+                        <a class="dropdown-item" href="">JEE Advanced</a>
+                        <a class="dropdown-item" href="">JEE Main</a>
+                        <a class="dropdown-item" href="">NEET</a>
+                      </ul>
+                    </div>
                   </li>
-                  <li class="nav-item me-4">
-                    <a class="nav-link">Results</a>
-                  </li>
-                  <li class="nav-item me-4">
-                    <a class="nav-link">Campus</a>
-                  </li>
+
                   <li class="nav-item me-4">
                     <a class="nav-link" href="#">Life @ Resonance</a>
                   </li>
