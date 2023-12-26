@@ -1,0 +1,49 @@
+.main {
+  background: url("../../assets/images/about3.jpg");
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head {
+  padding-top: 90px;
+  color: white;
+}
+
+p {
+  line-height: 2;
+  border-color: #e6e6e6;
+  margin-bottom: 1rem;
+  text-align: justify;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+.cards{
+    height: 300px;
+}
+.text2{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+.why-reso {
+  border-color: #e6e6e6;
+  color: rgb(35, 46, 127);
+  margin-bottom: 1rem;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.accordion-button {
+  background-color: rgb(217, 227, 217);
+  color: black;
+  padding: 20px;
+}
+.accordion-item{
+    margin: 20px;
+}

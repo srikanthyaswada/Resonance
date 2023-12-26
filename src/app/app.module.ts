@@ -11,6 +11,8 @@ import { Inter1JeeMaComponent } from './courses/courselist/inter1-jee-ma/inter1-
 import { Inter1JeeMComponent } from './courses/courselist/inter1-jee-m/inter1-jee-m.component';
 import { Inter2JeeMComponent } from './courses/courselist/inter2-jee-m/inter2-jee-m.component';
 import { Inter2JeeMaComponent } from './courses/courselist/inter2-jee-ma/inter2-jee-ma.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { Inter2JeeMaComponent } from './courses/courselist/inter2-jee-ma/inter2-
     Inter1JeeMaComponent,
     Inter1JeeMComponent,
     Inter2JeeMComponent,
-    Inter2JeeMaComponent
+    Inter2JeeMaComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
