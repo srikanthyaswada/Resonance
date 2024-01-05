@@ -13,6 +13,13 @@ import { Inter2JeeMComponent } from './courses/courselist/inter2-jee-m/inter2-je
 import { Inter2JeeMaComponent } from './courses/courselist/inter2-jee-ma/inter2-jee-ma.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { BlogComponent } from './blog/blog.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { MediaComponent } from './media/media.component';
+import { FaqComponent } from './faq/faq.component';
+import { ResolifeComponent } from './resolife/resolife.component';
+import { ResolearnComponent } from './resolearn/resolearn.component';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +33,14 @@ import { ContactComponent } from './contact/contact.component';
     Inter2JeeMComponent,
     Inter2JeeMaComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    BlogComponent,
+    GalleryComponent,
+    MediaComponent,
+    FaqComponent,
+    ResolifeComponent,
+    ResolearnComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
