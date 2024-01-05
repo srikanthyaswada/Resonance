@@ -1,12 +1,17 @@
 .main {
-  background-color: rgb(7, 2, 86);
+  background-color: rgb(9, 4, 66);
+}
+@media (max-width: 480px) {
+  .main {
+    display: none;
+  }
 }
 .bg-nav {
-  background-color: #f1f5f1;
+  background-color: #e7f8e7;
 }
 .mail-link {
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
   font-size: 14px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
@@ -15,12 +20,27 @@
 }
 .mail-link4 {
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
   font-size: 14px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   padding-right: 10px;
 }
+.bt {
+  background-color: rgb(9, 156, 53);
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .bt {
+    display: none;
+  }
+}
+
 .logo {
   border-radius: 20px;
 }
@@ -31,9 +51,12 @@
 }
 .nav-link {
   cursor: pointer;
+  color: rgb(11, 10, 10) !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
-.head {
-  background-color: #f1f5f1;
+.head{
+  background-color: #f7f9f7;
 }
 .dropdown-menu {
   background-color: rgb(182, 244, 189);
