@@ -1,11 +1,16 @@
-
+.main {
+  background: url("../../assets/images/course-bg.jpg");
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head {
+  padding-top: 90px;
+}
 .bg-course{
 background-color: #fbfbfc;
 }
-.card-shadow {
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-}
+
 .cs {
   color: rgb(5, 5, 116);
 }
@@ -14,6 +19,7 @@ background-color: #fbfbfc;
   font-size: 25px;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 .reso-knr {
   color: green;
@@ -37,7 +43,7 @@ background-color: #fbfbfc;
 
 .card-shadow {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border: 1px solid rgb(148, 212, 148);
+  border: 1px solid rgb(194, 245, 194);
 }
 .cs {
   color: rgb(5, 5, 116);
